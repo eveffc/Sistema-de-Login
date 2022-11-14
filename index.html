@@ -3,25 +3,34 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/Login-normalize.css"/>
 		<link rel="stylesheet" type="text/css" href="css/Login-estilo.css"/>
 		<title>Sitema de Login</title>
 	</head>
 	<body>
 		<div id="Login">
 			<header>
-				<div class="logo"><h1>Login</h1></div>
-				<div class="box"> 
-					<div class="input">  <!~~entrada de informação~~>
+				<div class="logo"><h1><img src="img/login-logo.png"></a></h1></div> 
+				<div class="box">
+					<div class="input">
+					<div class="data">  <!~~entrada de informação~~>
 						<label for="usuario">Usuário:</label>
 						<input type="text" id="usuario" name="usuario">
+					</div>
+					<div class="data">
 						<label for="password">Senha:</label>
 						<input type="password" id="password" name="senha">
 					</div>
-					<div class="usser"><a href="#">Criar conta</a></div>
+					<!~~ links e botões~~!>
 					<div class="recovery"><a href="#">Esqueceu a senha?</a></div>
-					<input type="submit" value="login" name="Login">
+					<div class="botton"><input type="submit" value="Login" class="submit" name="Login"></div>
+					<div class="usser"><a href="#">Criar conta</a></div>
+				</div>
 				</div>
 			</header>
 		</div>
 	</body>
+	<footer class="footer">
+		<span>&copy; Projeto - sistema de login 2022</span>
+	</footer>
 	</html>
