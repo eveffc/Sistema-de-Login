@@ -9,7 +9,7 @@ h1 img{
 	padding-left: 30px;
 }
 h2{
-	margin-top: 110px;
+	margin-top: 95px;
 
 }
 .box{
@@ -31,7 +31,7 @@ h2{
 	.name input{
 		width: 200px;
 	}
-	.e-mail input{
+	.e-mail input, .idname input{
 		width: 421px;
 	}
 	.password input{
